@@ -30,7 +30,7 @@ app.get("/add", function (req, res) {
 });
 
 app.get("/viewTables", function (req, res) {
-    res.sendFile(path.join(__dirname, "viewTableshtml"));
+    res.sendFile(path.join(__dirname, "viewTables.html"));
 });
 
 // Displays all characters
